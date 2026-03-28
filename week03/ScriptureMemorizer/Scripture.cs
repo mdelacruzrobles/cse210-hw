@@ -47,7 +47,7 @@ public class Scripture
         }
         return result;
     }
-    public bool isCompletelyHidden()
+    public bool IsCompletelyHidden()
     {
         foreach (Word w in _words)
         {
