@@ -9,7 +9,7 @@ class Program
         Scripture scripture = new Scripture(reference, verseText);
         string input = "";
         Random random = new Random();
-        while (input != "quit" && !scripture.isCompletelyHidden())
+        while (input != "quit" && !scripture.IsCompletelyHidden())
         {
             Console.Clear();
             Console.WriteLine(scripture.GetDisplayText());
